@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: #333;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+nav ul, nav ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #4574b5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, nav {
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.8em;
+}
+p {
+    line-height: 1.5;
+}
+
+/* Layout */
+.wrapper {
+    max-width: 1020px;
+    margin: auto;
+}
+header {
+    padding: 20px;
+    background: #b5b5b5;
+}
+#mainnav ul {
+    display: flex;
+    justify-content: center;
+}
+#mainnav ul li a {
+    padding: 10px 20px;
+    color: #4574b5;
+    font-size: 1.2em;
+}
+#mainnav ul li:first-of-type a {
+    border-left: none;
+}
+.primary {
+    background: #b5b5b5;
+}
+.secondary {
+    background: #efefef;
+    padding: 20px;
+}
+footer {
+    background: #b5b5b5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects article {
+    width: 48%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
